@@ -10,6 +10,8 @@
 npx --yes serve .
 ```
 
-## Публикация
+## Онлайн
 
-Сайт публикуется через GitHub Pages из ветки `master`.
+**https://natas-sait.github.io/test_2/**
+
+Публикация: GitHub Pages, ветка `master`, корень репозитория.
