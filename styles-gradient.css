@@ -56,6 +56,17 @@ body {
     backdrop-filter: blur(8px);
 }
 
+.card.reveal {
+    opacity: 0;
+    transform: translateY(16px);
+    transition: opacity 0.55s ease, transform 0.55s ease;
+}
+
+.card.reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 .hero {
     display: flex;
     justify-content: space-between;
@@ -172,6 +183,10 @@ li + li { margin-top: 6px; }
 .metric {
     margin-top: 10px;
     color: #111827;
+}
+
+.edu-second {
+    margin-top: 16px;
 }
 
 .download-card {
